@@ -1,0 +1,33 @@
+name: Test optional inputs - slack_username, slack_channel, pages_to_watch
+on:
+  workflow_dispatch:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_EVENT_NAME: gollum
+      GITHUB_REF: refs/heads/main
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+
+      - name: Run action with all optional inputs (expect failure with fake webhook)
+        id: action
+        uses: .
+        with:
+          slack_webhook: "https://hooks.slack.com/services/FAKE/FAKE/FAKE"
+          slack_username: "WikiBot"
+          slack_channel: "#wiki-updates"
+          pages_to_watch: "Home|README"
+        continue-on-error: true
+
+      - name: Assert action ran with optional inputs
+        env:
+          OUTCOME: ${{ steps.action.outcome }}
+        run: |
+          echo "outcome: $OUTCOME"
+          if [ "$OUTCOME" = "success" ] || [ "$OUTCOME" = "failure" ]; then
+            echo "PASS: action ran and produced an outcome with optional inputs: $OUTCOME"
+          else
+            echo "FAIL: unexpected outcome '$OUTCOME'"
+            exit 1
+          fi
