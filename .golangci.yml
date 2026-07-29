@@ -1,0 +1,35 @@
+run:
+  deadline: 5m
+
+# https://golangci-lint.run/usage/linters/
+linters:
+  disable-all: true
+  enable:
+    # - depguard
+    - dogsled
+    - dupl
+    - errcheck
+    - exhaustive
+    #- funlen
+    - gochecknoinits
+    - goconst
+    - gocyclo
+    - gofmt
+    - goimports
+    - goprintffuncname
+    - gosec
+    - gosimple
+    - govet
+    - ineffassign
+    - misspell
+    - nakedret
+    - noctx
+    - nolintlint
+    - staticcheck
+    - stylecheck
+    - typecheck
+    - unconvert
+    - unparam
+    - unused
+    - whitespace
+  fast: false

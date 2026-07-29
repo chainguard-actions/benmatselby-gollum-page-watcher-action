@@ -1,0 +1,26 @@
+{
+  "pages": [
+    {
+      "page_name": "Home",
+      "title": "The homepage",
+      "action": "edited",
+      "sha": "32j3n3j2n4234",
+      "html_url": "https://github.com/example/repo/wiki/Home"
+    },
+    {
+      "page_name": "Testing",
+      "title": "How to test",
+      "action": "created",
+      "sha": "3242345235",
+      "html_url": "https://github.com/example/repo/wiki/Testing"
+    }
+  ],
+  "repository": {
+    "full_name": "example/repo",
+    "html_url": "https://github.com/example/repo"
+  },
+  "sender": {
+    "login": "testuser",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1?v=4"
+  }
+}
