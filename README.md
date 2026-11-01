@@ -6,11 +6,11 @@ Hardened by [Chainguard](https://www.chainguard.dev) from the upstream action at
 
 ## Versions
 
-| Version | Tag | Upstream commit |
-|---------|-----|-----------------|
-| v1.11.0 | [`v1.11.0`](https://github.com/chainguard-actions/benmatselby-gollum-page-watcher-action/tree/v1.11.0) | [`7cad920`](https://github.com/benmatselby/gollum-page-watcher-action/commit/7cad9205b8a9081486a1c8599e3806b6e78f07f9) |
-| v1.7.0 | [`v1.7.0`](https://github.com/chainguard-actions/benmatselby-gollum-page-watcher-action/tree/v1.7.0) | [`de88b7a`](https://github.com/benmatselby/gollum-page-watcher-action/commit/de88b7a16a0dd0aa5d1983e293c51ab3d373057e) |
-| v1.9.0 | [`v1.9.0`](https://github.com/chainguard-actions/benmatselby-gollum-page-watcher-action/tree/v1.9.0) | [`9d123f6`](https://github.com/benmatselby/gollum-page-watcher-action/commit/9d123f60fc1ddafa901b241a520a7657b1b7e8db) |
+| Version | Tag | Upstream commit | Hardening report |
+|---------|-----|-----------------|------------------|
+| v1.11.0 | [`v1.11.0`](https://github.com/chainguard-actions/benmatselby-gollum-page-watcher-action/tree/v1.11.0) | [`7cad920`](https://github.com/benmatselby/gollum-page-watcher-action/commit/7cad9205b8a9081486a1c8599e3806b6e78f07f9) | [`HARDENING.md`](https://github.com/chainguard-actions/benmatselby-gollum-page-watcher-action/blob/v1.11.0/HARDENING.md) |
+| v1.7.0 | [`v1.7.0`](https://github.com/chainguard-actions/benmatselby-gollum-page-watcher-action/tree/v1.7.0) | [`de88b7a`](https://github.com/benmatselby/gollum-page-watcher-action/commit/de88b7a16a0dd0aa5d1983e293c51ab3d373057e) | [`HARDENING.md`](https://github.com/chainguard-actions/benmatselby-gollum-page-watcher-action/blob/v1.7.0/HARDENING.md) |
+| v1.9.0 | [`v1.9.0`](https://github.com/chainguard-actions/benmatselby-gollum-page-watcher-action/tree/v1.9.0) | [`9d123f6`](https://github.com/benmatselby/gollum-page-watcher-action/commit/9d123f60fc1ddafa901b241a520a7657b1b7e8db) | [`HARDENING.md`](https://github.com/chainguard-actions/benmatselby-gollum-page-watcher-action/blob/v1.9.0/HARDENING.md) |
 
 ## Privacy
 
